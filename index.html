@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sync</title> 
+    
+    <script src="https://kit.fontawesome.com/96bf31db1f.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=The+Nautigal:wght@700&display=swap"
+        rel="stylesheet">
+    
+<link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Nunito:wght@800&family=Roboto+Condensed:wght@300&family=The+Nautigal:wght@700&display=swap"
+    rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@500&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+
+        .div1{
+            background-image: url('./Background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width:100%;
+            margin: auto;
+        }
+
+        .Header{
+            font-family: 'The Nautigal', cursive;
+            font-size: 50px;
+            padding-right: 1200px;
+            padding-left: 100px;
+            padding-bottom: 20px;
+            position: fixed;
+            background-image: url('./white.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        
+        .plinks{
+            background-image: url('');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            padding-left: 600px;
+            padding-right: 0px;
+            position: fixed;
+            color: rgb(64, 7, 170);
+            font-size: 15px;
+            font-family: 'Roboto Condensed', sans-serif;
+            padding-top: 0px;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            padding-left: 20px;
+        }
+
+        a:hover{
+            text-decoration: none;
+            color: red;
+            cursor: pointer;
+        }
+
+        .learn{
+            height: 50px;
+            border-radius: 25px;
+            width:200px;           
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(247, 43, 104);
+            border-color: transparent;
+        }
+
+        .learnn{
+            height: 50px;
+            border-radius: 25px;
+            width:200px;   
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(247, 43, 104);
+            border-color: transparent;
+        }
+
+        .learnnn{
+            height: 40px;
+            border-radius: 25px;
+            width:150px;   
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: red;
+            background-color: white;
+            border-color: red;
+        }
+
+        .terms{
+            height: 43px;
+            border-radius: 25px;
+            width:120px;   
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            color: white;
+            background-color: rgb(247, 43, 104);
+            border-color: transparent;
+        }
+
+        .terms:hover{
+            color: red;
+            background-color: white;
+            cursor: pointer;
+            border-color: red;
+        }
+
+        .privacy{
+            height: 43px;
+            border-radius: 25px;
+            width:120px;   
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            color: black;
+            background-color: transparent;
+            border-color: black;
+        }
+
+        .privacy:hover{
+            color: white;
+            background-color: black;
+            cursor: pointer;
+            border-color: black;
+        }
+
+        .buttona{
+            height: 50px;
+            width: 128px;           
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: black;
+            background-color: white;
+            border-color: transparent;
+        }
+
+        .buttona i{
+            color: black;
+        }
+
+        .buttona:hover{
+            background-color: rgb(158, 75, 253);
+            cursor: pointer;
+        }
+
+        .learn:hover{
+            color: red;
+            background-color: white;
+            cursor: pointer;
+            border-color: red;
+        }
+
+        .learnn:hover{
+            color: red;
+            background-color: white;
+            cursor: pointer;
+            border-color: red;
+        }
+
+        .learnnn:hover{
+            color: white;
+            background-color: rgb(247, 43, 104);
+            border-color: transparent;
+            cursor: pointer;
+        }
+
+        a{
+            padding-right: 5px;
+        }
+
+        .Mobile{
+            text-align: center;
+            font-size: 60px;
+            font-family: 'Nunito', sans-serif;
+            color: black;
+        }
+
+        .belowH1{
+            font-family: Arial;
+            color: black;
+            text-align: center;
+            margin: auto;
+            width: 80%;
+            font-size: 22px;
+            color: gray;
+        }
+
+        .learn1{
+            padding-left: 450px;
+        }
+
+        img{
+            height: auto;
+            width: 1000px;
+            padding-left: 200px;
+        }
+
+        .word{
+            padding-left: 70px;
+            font-size: 20px;
+            text-align: center;
+            color: black;
+            font-family: Fugaz One;
+        }
+
+        .piconss{
+            margin-left: 70px;
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 18px;
+            color: rebeccapurple;
+            background-color: rgb(201, 176, 226);
+            border-radius: 50%;
+            background-clip: content-box;
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+        }
+
+        .picons{
+            margin-left: 70px;
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 18px;
+            color: rgb(59, 201, 123);
+            background-color: rgb(174, 250, 208);
+            border-radius: 50%;
+            background-clip: content-box;
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+        }
+
+        .cog{
+            color: rgb(228, 72, 98);
+            background-color: rgb(243, 166, 179);
+        }
+
+        .comments{
+            color: rgb(214, 214, 19);
+            background-color: rgb(235, 235, 124);
+        }
+
+        .rocket{
+            color: rgb(78, 78, 245);
+            background-color: rgb(158, 158, 250);
+        }
+
+        .div2{
+            width: 90%;
+            margin: auto;
+            font-family: 'Orbitron';
+            color:white;
+            background-color: transparent;
+        }
+
+        .subcontainer{
+            width: 80%;
+            height: 500px;
+            margin: auto;
+            margin-top: 20px;
+            padding-bottom: 70px;
+        }
+
+        .heading{
+            width: 40%;
+            height: 100%;
+            float: left;
+            color: black;
+        }
+
+        .img1{
+            width: 40%;
+            height: 100%;
+            display: inline-block;
+        }
+
+        .img1 img{
+            width: 100%;
+            width: auto;
+            height: 100%;
+        }
+
+        .side{
+            color: gray;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul{
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1{
+           font-family: 'Roboto Condensed', sans-serif;
+           font-size: 35px; 
+        }
+
+        .subcontainer2{
+            width: 80%;
+            height: 500px;
+            margin: auto;
+            margin-top: 20px;
+            background-color: rgb(230, 237, 248);
+            padding-left: 120px;
+            padding-right: 137px;
+            padding-top: 120px;
+            padding-bottom: 50px;
+        }
+
+        .containerr{
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .subcontainer3{
+            width: 33%;
+            float: left;
+        }
+
+        .subcontainer4{
+            width: 33%;
+            display: inline-block;
+        }
+
+        .subcontainer3 img{
+            width: 80%;
+            margin-left: -170px;
+        }
+
+        .featuress{
+            width: 70%;
+            float: left;
+            height: 150px;
+            text-align: right;
+            padding-right: 20px;
+            padding-top: 60px;
+        }
+
+        .featuress h3{
+            text-align: right;
+        }
+
+        .featuress-img{
+            width: 75px;
+            display: inline-block;
+            margin-top: 50px;
+            padding-left: 0px;
+            font-size: 28px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(164, 111, 216);
+            border-radius: 50%;
+            background-clip: content-box;
+            height: 75px;
+            line-height: 75px;
+            text-align: center;
+            margin-top: 115px;
+        }
+
+        .c{
+            background-color: rgb(59, 201, 123);
+        }
+
+        .s{
+            background-color: rgb(228, 72, 98);
+        }
+
+        .cc{
+            background-color: rgb(253, 197, 11);
+        }
+
+        .r{
+            background-color: rgb(160, 198, 255);
+        }
+
+        .heading2{
+            text-align: center;
+            color: black;
+            font-size: 60px;
+            padding-top: 69px;
+            font-family: 'Fredoka', sans-serif;
+        }
+    </style>
+</head>
+<body>
+        <div class="div1">
+        
+            <div class="Header">
+                <strong>Sync</strong>
+            </div>
+        
+            <p class="plinks">
+                <strong>
+                    <a href="#0">HOME</a>
+                    <a href="#description">DESCRIPTION</a>
+                    <a href="#features">FEATURES</a>
+                    <a href="#12">SCREENS</a>
+                    <a href="#123">
+                        <button class="learnnn" type="button">
+                            DOWNLOAD
+                        </button>
+                    </a>
+
+                </strong>
+            </p>
+        
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        
+            <p class="Mobile">Mobile App Landing Page</p>
+        
+            <p class="belowH1">
+                Start focusing on your goals and get more things done with Sync mobile application. It's the first app to harness the
+                power of social connections to help you stay focused and get organized
+            </p>
+
+            <br>
+            <br>
+        
+            <p class="learn1">
+                <a href="">
+                    <strong>
+                        <button class="learn" type="button">
+                            <i class="fab fa-apple"></i>
+                            DOWNLOAD
+                        </button>
+
+                        <button class="learnn" type="button">
+                            <i class="fas fa-chevron-right"></i>
+                            DOWNLOAD
+                        </button>
+                    </strong>
+                    
+                </a>
+            </p>
+            <br>
+            <br>
+
+            <p class="iphone">
+                <img src="./iphone.png" alt="">
+            </p>
+            <br>
+            <br>
+        </div>
+
+        <div class="div2">
+                <table border="0px" bordercolor="white" bgcolor="" height="" width="">
+                
+                    <tr>
+                        <td align="center">
+                
+                            <div class="icons2">
+                
+                
+                                <p class="piconss">
+                                    <i class="fas fa-users"></i>
+                                </p>
+
+                                <p class="word">
+                                    Identify Goals
+                                </p>
+                
+                            </div>
+                
+                        </td>
+                
+                        <p>
+                
+                        </p>
+                
+                        <td align="center">
+                
+                            <div class="icons2">
+                
+                
+                                <p class="picons arrow">
+                                    <i class="fas fa-code"></i><Br>
+                                </p>
+
+                                <p class="word">
+                                    Situation Analysis
+                                </p>
+                
+                            </div>
+                
+                        </td>
+                
+                        <td align="center">
+                
+                            <div class="icons2">
+                
+                
+                                <br>
+                
+                                <p class="picons cog">
+                                    <i class="fas fa-cog"></i><Br>
+                                </p>
+
+                                <p class="word">
+                                    Tasks Settings
+                                </p>
+                
+                            </div>
+                
+                        </td>
+                
+                        <td align="center">
+                
+                            <div class="icons2">
+                
+                
+                                <br>
+                
+                                <p class="picons comments">
+                                    <i class="fas fa-comments"></i><Br>
+                                </p>
+                
+                                <p class="word">
+                                    Social Interaction
+                                </p>
+                
+                            </div>
+                
+                        </td>
+
+                            <td align="center">
+                                                
+                                <div class="icons2">
+                                                
+                                                
+                                    <p class="picons rocket">
+                                        <i class="fas fa-rocket"></i><Br>
+                                    </p>
+                                                
+                                    <p class="word">
+                                        Get things done
+                                    </p>
+                                                
+                                </div>
+                                                
+                            </td>
+                
+                    </tr>
+                
+                </table>
+
+                <br>
+                <br>
+
+            <div id="description" class="subcontainer">
+            
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="heading">
+                    <h1>Organize Your Time And Start Getting Results</h1>
+            
+            
+                    <p class="side">
+                         Sync is the first mobile app on the market to harness the power of
+                         social connections to help you stop procrastinating and start 
+                         getting things done. Give it a try and see the changes right away
+
+                         <br>
+                         
+                        <ul>
+                            <li>
+                                Analyse and evaluate your current status and productivity
+                            </li>
+
+                            <li>
+                                Begin monitoring your day to day routine with Sync app
+                            </li>
+
+                            <li>
+                                See the improved results in no more than a couple of weeks
+                            </li>
+                        </ul>
+
+                        <br>
+                        <br>
+
+                        <button class="learnn" type="button">
+                            LIGHTBOX
+                        </button>
+
+                    </p>
+            
+                </div>
+            
+                <div class="img1">
+                    <img src="./side.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        <div class="subcontainer2">
+
+                        <div class="heading">
+                            <h1>
+                                <a href="">
+                                <strong>
+                                    <button class="buttona" type="button">
+                                        <i class="far fa-clock"></i>
+                                        SCHEDULE
+                                    </button>
+                            
+                                    <button class="buttona" type="button">
+                                        <i class="fas fa-list"></i>
+                                        TRACKING
+                                    </button>
+
+                                    <button class="buttona" type="button">
+                                        <i class="far fa-calendar-alt"></i>
+                                        ORGANIZE
+                                    </button>
+                                </strong>
+                            
+                                </a>
+                            </h1>
+                    
+                    
+                            <p class="side">
+                                Sync is the first mobile app on the market to harness the power of
+                                social connections to help you stop procrastinating and start
+                                getting things done. Give it a try and see the changes right away
+                    
+                                <br>
+                    
+                            <ul>
+                                <li>
+                                    Analyse and evaluate your current status and productivity
+                                </li>
+                    
+                                <li>
+                                    Begin monitoring your day to day routine with Sync app
+                                </li>
+                    
+                                <li>
+                                    See the improved results in no more than a couple of weeks
+                                </li>
+                            </ul>
+                    
+                            <br>
+                            <br>
+                    
+                            <button class="terms" type="button">
+                                TERMS
+                            </button>
+
+                            <button class="privacy" type="button">
+                                PRIVACY
+                            </button>
+                    
+                            </p>
+                    
+                        </div>
+                    
+                        <div class="img1">
+                            <img src="./side2.png" alt="">
+                        </div>
+                    </div>
+                    
+        </div>
+
+
+        <div id="features" class="containerr">
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="subcontainer3">
+                <div class="featuress">
+                    <h3>
+                        Goal Setting
+                    </h3>
+        
+                    <p>
+                        Like any self improving process, everything starts with setting your goals and committing to them
+                    </p>
+                </div>
+        
+                <div class="featuress-img u">
+                    <i class="fas fa-users"></i>
+                </div>
+        
+                <div class="featuress">
+                    <h3>
+                        Situation Analysis
+                    </h3>
+        
+                    <p>
+                        Sync provides a well designed and ergonomic visual editor for you to edit your quick notes
+                    </p>
+                </div>
+        
+                <div class="featuress-img c">
+                    <i class="fas fa-code"></i>
+                </div>
+        
+                <div class="featuress">
+                    <h3>
+                        Tasks Settings
+                    </h3>
+        
+                    <p>
+                        Each option packaged in the app's menus is provided in order to improve you personally
+                    </p>
+                </div>
+        
+                <div class="featuress-img s">
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+        
+            <div class="subcontainer3">
+                <img src="./features.jpg" alt="">
+            </div>
+        
+            <div class="subcontainer4">
+                                <div class="featuress">
+                                    <h3>
+                                        Goal Setting
+                                    </h3>
+                                
+                                    <p>
+                                        Like any self improving process, everything starts with setting your goals and committing to them
+                                    </p>
+                                </div>
+                                
+                                <div class="featuress-img cc">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                
+                                <div class="featuress">
+                                    <h3>
+                                        Situation Analysis
+                                    </h3>
+                                
+                                    <p>
+                                        Sync provides a well designed and ergonomic visual editor for you to edit your quick notes
+                                    </p>
+                                </div>
+                                
+                                <div class="featuress-img r">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                
+                                <div class="featuress">
+                                    <h3>
+                                        Tasks Settings
+                                    </h3>
+                                
+                                    <p>
+                                        Each option packaged in the app's menus is provided in order to improve you personally
+                                    </p>
+                                </div>
+                                
+                                <div class="featuress-img">
+                                    <i class="fas fa-upload"></i>
+                                </div>
+            </div>
+        
+        </div>
+
+        <div id="" class="Feedback">
+            <p class="heading2">
+                User Testimonials
+            </p>
+
+            <p>
+                
+            </p>
+        </div>
+</body>
+</html>
